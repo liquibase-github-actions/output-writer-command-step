@@ -6,7 +6,7 @@ null
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/output-writer-command-step@v4.21.1
+- uses: liquibase-github-actions/output-writer-command-step@v4.22.0
   with:
     # The JDBC database connection URL
     # string
@@ -65,7 +65,7 @@ The liquibase output writer command step action accepts all valid liquibase glob
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/output-writer-command-step@v4.21.1
+  - uses: liquibase-github-actions/output-writer-command-step@v4.22.0
     with:
       url: ""
       headless: true
